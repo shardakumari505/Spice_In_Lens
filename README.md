@@ -43,10 +43,10 @@ This project contains automated tests created using Selenium IDE and Command Lin
 - After all installations are properly completed, hit the below mentioned command in your cmd accordingly
 
       ```bash
-          selenium-side-runner /path/to/your-project.side
+      selenium-side-runner /path/to/your-project.side
       ```
   In my case it was
 
       ```bash
-          selenium-side-runner "C:\Users\shard\Downloads\ifscasite.side"
+      selenium-side-runner "C:\Users\shard\Downloads\ifscasite.side"
       ```
