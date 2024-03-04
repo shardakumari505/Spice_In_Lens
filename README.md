@@ -39,7 +39,7 @@ This project contains automated tests created using Selenium IDE and Command Lin
 
 ## Testing from Command Line using Selenium Side Runner
 
--Open Command Prompt in your system
+- Open Command Prompt in your system
 - After all installations are properly completed, hit the below mentioned command in your cmd accordingly
 
 ```bash
