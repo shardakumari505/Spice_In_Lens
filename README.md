@@ -50,3 +50,7 @@ In my case it was
 ```bash
 selenium-side-runner "C:\Users\shard\Downloads\ifscasite.side"
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
