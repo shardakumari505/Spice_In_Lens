@@ -42,11 +42,11 @@ This project contains automated tests created using Selenium IDE and Command Lin
 -Open Command Prompt in your system
 - After all installations are properly completed, hit the below mentioned command in your cmd accordingly
 
-  ```bash
-      selenium-side-runner /path/to/your-project.side
-  ```
-  In my case it was
+```bash
+selenium-side-runner /path/to/your-project.side
+```
+In my case it was
 
-  ```bash
-      selenium-side-runner "C:\Users\shard\Downloads\ifscasite.side"
-  ```
+```bash
+selenium-side-runner "C:\Users\shard\Downloads\ifscasite.side"
+```
