@@ -1,0 +1,114 @@
+{
+  "id": "7c4286bc-6fc7-4eae-b465-d8ae32101137",
+  "version": "2.0",
+  "name": "ifsca",
+  "url": "https://www.ifsca.gov.in/",
+  "tests": [{
+    "id": "31424449-dd67-4f07-ab1e-a6971a0f5374",
+    "name": "ifsca",
+    "commands": [{
+      "id": "68b12afc-a73c-475f-80ea-3057fae625bd",
+      "comment": "",
+      "command": "open",
+      "target": "https://ifsca.gov.in/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "028da303-e8fe-471d-bec2-4fa714d21782",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff4fae65-ac0a-4b89-ac32-cb50e5fadd0b",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d7f7c20-5a25-4306-9ef5-bd2918646be8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollTo(0, 1800);",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42920346-44bf-4517-a4e9-8f721ee5731d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.col-md-6:nth-child(2) #twitter .btn",
+      "targets": [
+        ["css=.col-md-6:nth-child(2) #twitter .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'View More')])[2]", "xpath:link"],
+        ["xpath=(//div[@id='twitter']/div/div/div/div[2]/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/PressRelease/Index/MEdJSLhva0M=')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": "90000"
+    }, {
+      "id": "b2a5b68c-8659-4df8-a47d-5ef76df77099",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.col-md-6:nth-child(2) #twitter .btn",
+      "targets": [],
+      "value": "90000"
+    }, {
+      "id": "5053aad5-c98d-4bb2-83b2-106ed319a0d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6:nth-child(2) #twitter .btn",
+      "targets": [
+        ["css=.col-md-6:nth-child(2) #twitter .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'View More')])[2]", "xpath:link"],
+        ["xpath=(//div[@id='twitter']/div/div/div/div[2]/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/PressRelease/Index/MEdJSLhva0M=')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdbe28eb-dad7-4a56-b044-b95ee717095d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.odd:nth-child(1) .fa-download",
+      "targets": [
+        ["css=.odd:nth-child(1) .fa-download", "css:finder"],
+        ["xpath=//table[@id='GridList']/tbody/tr/td[4]/a/i", "xpath:idRelative"],
+        ["xpath=//td[4]/a/i", "xpath:position"]
+      ],
+      "value": "90000"
+    }, {
+      "id": "764d0e14-b66d-44df-b056-57a96c7030f2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.odd:nth-child(1) .fa-download",
+      "targets": [],
+      "value": "90000"
+    }, {
+      "id": "3181f84b-f2ed-4076-a4fc-d27d90c4c6b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.odd:nth-child(1) .fa-download",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c70321e-170b-4335-9587-7c58816ecbba",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "89ec2fa5-2101-4e09-9932-94f447a39f02",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["31424449-dd67-4f07-ab1e-a6971a0f5374"]
+  }],
+  "urls": ["https://pib.gov.in/", "https://www.ifsca.gov.in/"],
+  "plugins": []
+}
